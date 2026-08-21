@@ -11,16 +11,8 @@ header {
 h2 {
   color: #2f6f62;
 }
-<<<<<<< HEAD
-=======
-@media (max-width: 600px) {
-  nav a {
-    display: block;
-  }
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
-@media (max-width: 400px) {
-  header {
-    padding: 0.5rem;
-  }
-}
->>>>>>> feature/estilos
